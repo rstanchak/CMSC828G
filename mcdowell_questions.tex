@@ -1,0 +1,62 @@
+\documentclass[11pt]{article}
+\usepackage{homework}
+%
+\begin{document}
+%
+\title{Questions for McDowell (2007) and Jensen (2004)}
+\author{Roman Stanchak}
+\maketitle
+
+\section*{McDowell, et al.}
+
+Luke K. McDowell, Kalyan M. Gupta, David W. Aha. Cautious Inference in Collective Classification. 
+AAAI 2007. 
+
+\subsection*{Comments/Questions/Ideas}
+
+One aspect of their comparison that was not discussed was the choice of
+baseline classifiers (kNN and Naive Bayes).  kNN saw a much larger gain in
+accuracy that NB with cautious behavior, why was this?  I can speculate that it
+comes down to the difference in how the classifiers deal with unknown attribute
+data, which brings up the issue of whether we need to consider how
+\textit{cautious} the classifier is.
+
+The authors derive only two variants of Gibbs sampling, stating that ``it's
+unclear how to favor the training links while still enabling the re-sampling to
+properly explore the state space''.  Gibbs sampling is a
+special case of the Metropolis-Hastings algorithm, which incorporates the notion 
+of an ``acceptance rate'', which (if I remember correctly), affects the balance 
+between exploration and optimization.  If the Gibbs-sampling based 
+algorithm is considered in this more general framework, does this make it easier
+to characterize (and parameterize) cautiousness?
+
+In general, this idea of cautiousness needs to be explored much further.
+Other CI algorithms need to be characterized in terms of caution, such that
+more significant conclusions can be drawn, and parallels made between these different
+algorithms.
+
+\section*{Jensen, et al.}
+
+David Jensen, Jennifer Neville, Brian Gallagher. Why Collective Inference
+Improves Relational Classification. 2004. 
+
+\subsection*{Comments/Questions/Ideas} 
+
+The title of this paper is misleading, as the focus of the paper seemed to be more an empirical investigation on the effect of the relational properties of a dataset on the performance of categories of Collective Inference techniques.  The answer to the why? question posed by the title seems rather ill-presented and weak. Multiple times it was stated that: 
+"methods for collective inference benefit from a clever factoring of the space of dependencies", 
+but they never came out and said explicitly what the clever factoring was. Eventually I figured out 
+what they are getting at is that by considering relational classification algorithms in terms 
+of the conditional dependency structure, those using a CI dependency structure are superior. 
+
+The authors use variations of a Bayesian classifier for their evaluation, but do not explain how each of these particular algorithms embody the probabilistic dependency structure they're supposed to represent. Perhaps this is obvious if I was familiar with these algorithms, but I'm left to my own devices to figure it out. Furthermore, since the paper only considers the Bayesian classifier, I'm not exactly confident that the claims about CI will extend to other classifiers.
+
+In terms of identifying the factors that affect the accuracy of relational classification methods, the evaluation does this adequately. In some instances, given a greater number of training examples it appears that R2 is on track to overtake CI. It would be interesting to see whether R2 would eventually outperform CI or if it would level off. The answer to this question would seem to have implications about the extent to which CI truly benefits from class labels beyond its local neighborhood.
+
+\subsubsection*{Other Questions}
+\begin{enumerate}
+	\item Can generalizations be made about the size of TrainSet relative to when R2 will outperform CI?
+    \item Given an arbitratry relational classifier, can it be reformulated to be a CI classifier?
+    \item Does increasing the neighborhood size for CI help peformance?
+\end{enumerate}
+
+\end{document}

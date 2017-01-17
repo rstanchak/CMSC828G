@@ -1,0 +1,18 @@
+Transitivity is in general the property that, given entities A,B,C, if A is related to B and B is related to C, then A is related to C.  In the context of networks, transitivity reflects the tendency towards 'triads' of nodes.  That, is if A is connected to B and B is connected to C, then C is connected to A. Transitivity ends up being closely related to the 'clustered-ness' of a network, and various measures exist for quantifying it.  
+
+Why social networks are different from other types of networks
+Authors: M. E. J. Newman, Juyong Park
+http://en.wikipedia.org/wiki/Transitive_relation
+http://arxiv.org/abs/cond-mat/0305612
+
+Reciprocity is a measure on a directed network that reflects the tendency that pairs of nodes are
+mutually connected.  That is, if node A is connected to B, then B is also connected to A.  This notion can also be extended to weighted networks, and reflects the tendency toward balance between the weight between A and B and that between B and A.  For example, the concept of 'dissing' other artists in rap music was previously discussed in class.  Reciprocity in this case could refer to the degree to which a pair of rappers mutually dissed each other, or perhaps the degree to which they
+mutually benefitted (in terms of record sales) from the dissing.
+
+http://en.wikipedia.org/wiki/Reciprocity_in_network
+http://galenet.galegroup.com/servlet/SciRC?ste=1&docNum=A17863674&locID=umd_um
+Human Biology  Dec 1995 v67 n6 p887(18)
+
+Reciprocity in marital and social networks: illustration with Indian data.
+
+AUTHOR(s): Rao, A. Ramachandra 

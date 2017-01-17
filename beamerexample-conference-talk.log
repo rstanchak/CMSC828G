@@ -1,0 +1,164 @@
+This is pdfTeX, Version 3.14159-1.10b (Web2C 7.4.5) (format=pdflatex 2007.11.12)  12 MAR 2008 18:33
+**beamerexample-conference-talk.tex
+(./beamerexample-conference-talk.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(/fs/junkfood/roman/texmf/tex/latex/latex-beamer-3.07/base/beamer.cls
+(/fs/junkfood/roman/texmf/tex/latex/latex-beamer-3.07/base/beamerbasercs.sty
+Package: beamerbasercs 2007/01/28 (rcs-revision 1.4)
+)
+Document Class: beamer 2007/03/11 cvs version 3.07 A class for typesetting pres
+entations (rcs-revision 1.70)
+(/fs/junkfood/roman/texmf/tex/latex/latex-beamer-3.07/base/beamerbasemodes.sty
+Package: beamerbasemodes 2007/01/28 (rcs-revision 1.22)
+\beamer@tempbox=\box26
+\beamer@tempcount=\count79
+\c@beamerpauses=\count80
+
+(/fs/junkfood/roman/texmf/tex/latex/latex-beamer-3.07/base/beamerbasedecode.sty
+Package: beamerbasedecode 2007/01/28 (rcs-revision 1.20)
+\beamer@slideinframe=\count81
+\beamer@minimum=\count82
+)
+\beamer@commentbox=\box27
+\beamer@modecount=\count83
+)
+\headheight=\dimen102
+\headdp=\dimen103
+\footheight=\dimen104
+\sidebarheight=\dimen105
+\beamer@tempdim=\dimen106
+\beamer@finalheight=\dimen107
+\beamer@animht=\dimen108
+\beamer@animdp=\dimen109
+\beamer@animwd=\dimen110
+\beamer@leftmargin=\dimen111
+\beamer@rightmargin=\dimen112
+\beamer@leftsidebar=\dimen113
+\beamer@rightsidebar=\dimen114
+\beamer@boxsize=\dimen115
+\beamer@vboxoffset=\dimen116
+\beamer@descdefault=\dimen117
+\beamer@descriptionwidth=\dimen118
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count84
+\beamer@subsubsectionmax=\count85
+\beamer@subsectionmax=\count86
+\beamer@sectionmax=\count87
+\beamer@totalheads=\count88
+\beamer@headcounter=\count89
+\beamer@partstartpage=\count90
+\beamer@sectionstartpage=\count91
+\beamer@subsectionstartpage=\count92
+\beamer@animationtempa=\count93
+\beamer@animationtempb=\count94
+\beamer@xpos=\count95
+\beamer@ypos=\count96
+\beamer@showpartnumber=\count97
+\beamer@currentsubsection=\count98
+\beamer@coveringdepth=\count99
+\beamer@sectionadjust=\count100
+\beamer@tocsectionnumber=\count101
+
+(/fs/junkfood/roman/texmf/tex/latex/latex-beamer-3.07/base/beamerbaseoptions.st
+y
+Package: beamerbaseoptions 2007/01/28 (rcs-revision 1.8)
+ (/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+(/fs/junkfood/roman/texmf/tex/latex/pgf-2.00/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2001/08/31 v1.1 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count102
+))
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
+)
+(/fs/junkfood/roman/texmf/tex/latex/pgf-2.00/latex/pgf/systemlayer/pgfsys.sty
+(/fs/junkfood/roman/texmf/tex/latex/pgf-2.00/latex/pgf/utilities/pgfrcs.sty
+(/fs/junkfood/roman/texmf/tex/latex/pgf-2.00/generic/pgf/utilities/pgfutil-comm
+on.tex
+\pgfutil@everybye=\toks15
+)
+(/fs/junkfood/roman/texmf/tex/latex/pgf-2.00/generic/pgf/utilities/pgfutil-late
+x.def)
+(/fs/junkfood/roman/texmf/tex/latex/pgf-2.00/generic/pgf/utilities/pgfrcs.code.
+tex
+Package: pgfrcs 2008/02/20 v2.00 (rcs-revision 1.21)
+))
+(/fs/junkfood/roman/texmf/tex/latex/pgf-2.00/generic/pgf/systemlayer/pgfsys.cod
+e.tex
+Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
+
+(/fs/junkfood/roman/texmf/tex/latex/pgf-2.00/generic/pgf/utilities/pgfkeys.code
+.tex
+\pgfkeys@pathtoks=\toks16
+\pgfkeys@temptoks=\toks17
+)
+\pgf@x=\dimen121
+\pgf@y=\dimen122
+\pgf@xa=\dimen123
+\pgf@ya=\dimen124
+\pgf@xb=\dimen125
+\pgf@yb=\dimen126
+\pgf@xc=\dimen127
+\pgf@yc=\dimen128
+\c@pgf@counta=\count103
+\c@pgf@countb=\count104
+\c@pgf@countc=\count105
+\c@pgf@countd=\count106
+
+(/fs/junkfood/roman/texmf/tex/latex/pgf-2.00/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/01/13  (rcs-revision 1.6)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 885.
+
+(/fs/junkfood/roman/texmf/tex/latex/pgf-2.00/generic/pgf/systemlayer/pgfsys-pdf
+tex.def
+File: pgfsys-pdftex.def 2007/12/20  (rcs-revision 1.20)
+
+(/fs/junkfood/roman/texmf/tex/latex/pgf-2.00/generic/pgf/systemlayer/pgfsys-com
+mon-pdf.def
+File: pgfsys-common-pdf.def 2007/12/17  (rcs-revision 1.8)
+)
+! Missing { inserted.
+<to be read again> 
+                   r
+l.49 \pdfobj r
+              eserveobjnum
+? x
+ 
+Here is how much of TeX's memory you used:
+ 1249 strings out of 95437
+ 24548 string characters out of 1190232
+ 62440 words of memory out of 1000001
+ 4273 multiletter control sequences out of 10000+50000
+ 3640 words of font info for 14 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 41i,0n,38p,337b,36s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 1 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 4 words of extra memory for PDF output out of 65536
+No pages of output.

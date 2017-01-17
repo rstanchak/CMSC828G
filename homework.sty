@@ -1,0 +1,63 @@
+%-----------------------------------------------------------------------
+%    homework.sty: TeX style for generating homeworks and solutions
+%    by Julian Mestre
+%
+%    Typical document structure:
+%	
+%	\documentclass[11pt]{article}
+%	\usepackage{homework}
+%
+%	\begin{document}
+%
+%       \title{<title of assignment here>}
+%       \author{<your name here>}
+%	\maketitle
+%
+%	\solution{1} <your answer here>
+%	\solution{2} <your answer here>
+%
+%	\end{document}
+
+
+%-----------------------------------------------------------------------
+%  Course information and name (used in \maketitle below)
+%-----------------------------------------------------------------------
+
+\newcommand\semester{Spring~2008}
+\newcommand\course{CMSC828G}
+
+
+%-----------------------------------------------------------------------
+%  Page size
+%-----------------------------------------------------------------------
+
+\usepackage[letterpaper,left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
+
+
+%-----------------------------------------------------------------------
+%  Heading tag for a solution:
+%	Usage: \solution{1} ...solution text...
+%-----------------------------------------------------------------------
+
+\newcommand{\solution}[1]{\vspace{1.5ex}\par\noindent{\bf Solution #1: }}
+\newcommand{\problem}[1]{\vspace{1.5em}\par\noindent{\bf Problem #1: }}
+
+
+%-----------------------------------------------------------------------
+%  Generates a page header for a handout
+%	Usage: \maketitle
+%-----------------------------------------------------------------------
+
+\newlength{\sidebox}\setlength{\sidebox}{9.5em}
+\newlength{\titlebox}\setlength{\titlebox}{\textwidth}\addtolength{\titlebox}{-2.2\sidebox}
+\renewcommand{\maketitle}{
+\noindent\parbox[t]{\sidebox}{\course\\ \semester}
+\hfill
+\parbox[t][2ex][b]{\titlebox}{ \centering \bf \@title}
+\hfill
+\parbox[t]{\sidebox}{\raggedleft \@author \\
+                     \raggedleft \@date}
+
+\vspace{3ex}\noindent\hrulefill
+}
+

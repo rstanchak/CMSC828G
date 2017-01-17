@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2008-05-13T00:42:06.544871Z"
+   url="file:///fs/junkfood/roman/svn/spring2008/828G/project/docs"
+   last-author="roman"
+   kind="dir"
+   uuid="ab73d5b2-fe2d-0410-a6ce-95ba4c6044e8"
+   revision="30"/>
+<entry
+   committed-rev="31"
+   name="stanchak_nips.bib"
+   text-time="2008-05-14T20:17:28.000000Z"
+   committed-date="2008-05-14T20:22:35.937500Z"
+   checksum="0dbc5b20e41a8b76990f710137f17010"
+   last-author="roman"
+   kind="file"
+   revision="31"/>
+<entry
+   committed-rev="30"
+   name="delaunay.jpg"
+   text-time="2008-05-13T20:53:58.000000Z"
+   committed-date="2008-05-13T00:42:06.544871Z"
+   checksum="795ef5d508814b9963b3f050b4b285c7"
+   last-author="roman"
+   kind="file"
+   prop-time="2008-05-13T05:11:14.000000Z"/>
+<entry
+   committed-rev="31"
+   name="stanchak_nips.tex"
+   text-time="2008-05-14T20:22:05.000000Z"
+   committed-date="2008-05-14T20:22:35.937500Z"
+   checksum="1a96992ea657c59ea94e4229b07571e8"
+   last-author="roman"
+   kind="file"
+   revision="31"/>
+<entry
+   committed-rev="32"
+   name="nips07submit_e.sty"
+   text-time="2008-05-14T19:40:27.000000Z"
+   committed-date="2008-05-14T20:30:57.788269Z"
+   checksum="20ed505af849721ccbef4b0bb0c8b839"
+   last-author="roman"
+   kind="file"
+   revision="32"/>
+<entry
+   committed-rev="13"
+   name="proposal.bib"
+   text-time="2008-05-13T20:53:58.000000Z"
+   committed-date="2008-03-14T22:28:06.445007Z"
+   checksum="0dbc5b20e41a8b76990f710137f17010"
+   last-author="roman"
+   kind="file"/>
+<entry
+   committed-rev="31"
+   name="mds.pdf"
+   text-time="2008-05-06T22:01:22.000000Z"
+   committed-date="2008-05-14T20:22:35.937500Z"
+   checksum="f5ba5a5f08b21dcb372ecfa2f4988c0c"
+   last-author="roman"
+   kind="file"
+   prop-time="2008-05-14T20:22:31.000000Z"
+   revision="31"/>
+<entry
+   committed-rev="31"
+   name="poster.odp"
+   text-time="2008-05-13T20:53:58.000000Z"
+   committed-date="2008-05-14T20:22:35.937500Z"
+   checksum="9015998d67972f68e75768c3779da147"
+   last-author="roman"
+   kind="file"
+   prop-time="2008-05-13T05:11:14.000000Z"
+   revision="31"/>
+<entry
+   committed-rev="13"
+   name="proposal.tex"
+   text-time="2008-05-13T20:53:58.000000Z"
+   committed-date="2008-03-14T22:28:06.445007Z"
+   checksum="923b9cd82a5ada292ae640f07e946350"
+   last-author="roman"
+   kind="file"/>
+</wc-entries>

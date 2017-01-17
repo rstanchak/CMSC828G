@@ -1,0 +1,46 @@
+\documentclass[twocolumn]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{url}
+
+
+\begin{document}
+\bibliographystyle{plain}
+ 
+\twocolumn[%
+\centerline{\Large \bf Utilizing Spatial Constraints in Topic Modeling} %% Paper title
+\centerline{\Large \it CMSC 828G Project Proposal} %% Paper title
+
+\medskip
+ 
+\centerline{\bf Roman Stanchak } %% Author name(s)
+\centerline{\textit{roman@cs.umd.edu} } %% Author email 
+
+\medskip
+
+\centerline{\textbf{Target publication venue:} \textit{NIPS? Suggestions?}}
+\bigskip
+]
+
+% Introduction, general problem
+\section{Introduction}
+Traditional topic modeling methods generally assume a 'bag of features' model in which there is no notion of order, location or distance for the features.   In the real world, order plays a large role in defining the context in which features can appear.  For instance, the meaning of a textual document is lost if the words are permuted.  Similarly, an image of a human face ceases to be recognizeable if the relative positions of the eyes, nose and mouth are scrambled.  Although topic models have seen much success in their application to various domains, it is clear that there is room for improvement by utilizing the spatial relationships between features. 
+
+\section{Related Work}
+% Background, related work
+Spatial relationships have been considered in the context of topic modeling.  Wallach\cite{wallach2006} describes a bigram model for text corpora,  Griffiths and Steyvers \cite{griffiths2005} describe LDA Collocation which also considers bigrams, and Wang extends their results for N-grams \cite{xwang2005}.  These works consider only the sequential order of words, and do not explicitly extend to multi-dimensional spaces.  Topic modeling has been considered in the Computer Vision literature for the problem of general object recognition in images.  A number of researchers have considered how to integrate spatial relationships with topic models in this context.  Some methods are ad-hoc \cite{lazebnik2006},\cite{russell2006}, while others incorporate spatial location directly into the underlying generative topic model \cite{xwang2007},\cite{sudderth2005}.  The goal of these works is object recognition from images, so evaluation is in terms of recognition rate.  In each work, slightly different features and codebook generation methods are used, and typically only one or two image databases are evaluated.  As a result, it is difficult to assess the relative effectiveness of the addition of spatial information to the topic modeling.
+
+\section{Proposed Work}
+
+This project proposes to survey work from various fields that incorporate spatial information and topic modeling.  The goal is to generalize each approach to the greatest degree possible, and compare the generalizations in a simplified setting using synthetic and real data.  If time allows, the methods will also be examined on image classification tasks using standard image databases for object recognition, but the focus here is primarily in identifying effective means of integrating spatial information.  
+
+\subsection{Data}
+% Data to be used
+Experiments will be carried out with both synthetic and real data.  In order to create synthetic data, a generative model must be described.  This introduces a complication since topic modeling methods are typically generative in nature, so the expectation is that methods will perform optimally on data using similar generative models.  For real-life data, a variety of data sets in UCI's Machine Learning Repository\cite{uci2007} containing spatial information will be utilized.
+
+\subsection{Evaluation}
+% Evaluation to be used
+The generalized method(s) will be evaluated in terms of (a) document modeling and (b) document classification.  Following Hofmann \cite{hofmann99probabilistic}, and Blei \cite{blei02latent}, document modeling will be evaluated in terms of the \textit{perplexity} measure on a held out test set.  Similarly, document classification will be evaluated using standard precision-recall on a held out test set. 
+
+\bibliography{proposal}
+\end{document}

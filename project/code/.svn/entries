@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="12"
+   name=""
+   committed-date="2008-03-14T22:27:12.462995Z"
+   url="file:///fs/junkfood/roman/svn/spring2008/828G/project/code"
+   last-author="roman"
+   kind="dir"
+   revision="23"/>
+<entry
+   committed-rev="12"
+   name="barycentric.m"
+   text-time="2008-03-14T22:25:12.000000Z"
+   committed-date="2008-03-14T22:27:12.462995Z"
+   checksum="8e55a74281bdd4a43d03542eb0d63513"
+   last-author="roman"
+   kind="file"/>
+<entry
+   committed-rev="12"
+   name="rand_dirichlet.m"
+   text-time="2008-03-14T22:12:19.000000Z"
+   committed-date="2008-03-14T22:27:12.462995Z"
+   checksum="249e61d11b7f6578efb28afa9354af8d"
+   last-author="roman"
+   kind="file"/>
+</wc-entries>

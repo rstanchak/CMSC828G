@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99c (Web2C 7.4.5)
+The top-level auxiliary file: stanchak_nips.aux
+The style file: plain.bst
+Database file #1: stanchak_nips.bib
+Warning--I didn't find a database entry for "labelme"
+You've used 9 entries,
+            2118 wiz_defined-function locations,
+            549 strings with 5428 characters,
+and the built_in function-call counts, 2995 in all, are:
+= -- 284
+> -- 150
+< -- 2
++ -- 60
+- -- 50
+* -- 197
+:= -- 506
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 52
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 114
+empty$ -- 243
+format.name$ -- 50
+if$ -- 631
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 7
+newline$ -- 47
+num.names$ -- 18
+pop$ -- 63
+preamble$ -- 1
+purify$ -- 43
+quote$ -- 0
+skip$ -- 73
+stack$ -- 0
+substring$ -- 159
+swap$ -- 20
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 36
+warning$ -- 0
+while$ -- 24
+width$ -- 10
+write$ -- 99
+(There was 1 warning)

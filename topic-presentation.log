@@ -1,0 +1,367 @@
+This is TeX, Version 3.14159 (Web2C 7.4.5) (format=latex 2007.11.12)  12 MAR 2008 18:18
+**topic-presentation
+(./topic-presentation.tex
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(/fs/junkfood/roman/texmf/tex/latex/prosper/prosper.cls
+Document Class: prosper 2001/01/23, v. 1.1
+(c) 2000 Frederic Goualard, CWI, The Netherlands
+CVSId: $Id: prosper.cls,v 1.5 2001/01/31 10:20:44 exupery Exp $
+ 
+(/usr/share/texmf/tex/latex/seminar/seminar.cls
+Document Class: seminar 1997/10/13, 1.4
+Document Style: `seminar' v1.4 <1997/10/13> (tvz)
+\slidewidth=\dimen102
+\slideheight=\dimen103
+\footheight=\dimen104
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/leqno.clo
+File: leqno.clo 1998/08/17 v1.1c Standard LaTeX option (left equation numbers)
+)
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen105
+)
+(/usr/share/texmf/tex/latex/seminar/sem-page.sty)
+\before@document=\toks14
+\after@document=\toks15
+\before@enddocument=\toks16
+\c@slide=\count87
+\slide@count=\count88
+\@slidebox=\box26
+\not@slidebox=\box27
+\slide@hook=\toks17
+\after@slide=\toks18
+\slide@footins=\insert233
+\slide@listdepth=\count89
+\saved@specials=\box28
+\before@newslide=\toks19
+\after@slidepage=\toks20
+\slidesep=\skip43
+\c@note=\count90
+\slideframewidth=\dimen106
+\slideframesep=\dimen107
+\semin=\dimen108
+\semcm=\dimen109
+)
+(/usr/share/texmf/tex/latex/config/seminar.con)
+(/usr/share/texmf/tex/latex/seminar/semcolor.sty
+Style Option: `semcolor' for doc style `seminar' 1.0 <93/04/01> (tvz)
+(/fs/junkfood/roman/texmf/tex/latex/pstricks/generic/pstricks.tex
+`PSTricks' v1.20  <2008/01/01> (tvz)
+\pst@dima=\dimen110
+\pst@dimb=\dimen111
+\pst@dimc=\dimen112
+\pst@dimd=\dimen113
+\pst@dimg=\dimen114
+\pst@dimh=\dimen115
+\pst@hbox=\box29
+\pst@boxg=\box30
+\pst@cnta=\count91
+\pst@cntb=\count92
+\pst@cntc=\count93
+\pst@cntd=\count94
+\pst@cntg=\count95
+\pst@cnth=\count96
+\pst@toks=\toks21
+(/fs/junkfood/roman/texmf/tex/latex/pstricks/generic/pstricks.con)
+\psunit=\dimen116
+\psxunit=\dimen117
+\psyunit=\dimen118
+\pslinewidth=\dimen119
+\pst@customdefs=\toks22
+\pslinearc=\dimen120
+\everypsbox=\toks23
+\psframesep=\dimen121
+\pslabelsep=\dimen122
+\pst@shift=\dimen123
+\pst@shift=\dimen124
+\theoverlaybox=\box31
+))
+(/usr/share/texmf/tex/latex/seminar/semlayer.sty
+\@@slidebox=\box32
+\c@overlay=\count97
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2001/08/31 v1.1 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2003/01/22 v6.73n Hypertext links for LaTeX
+\@linkdim=\dimen127
+\Hy@linkcounter=\count98
+\Hy@pagecounter=\count99
+
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2003/01/22 v6.73n Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive and teTeX
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 1744.
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 1744.
+Package hyperref Info: Option `pdfcenterwindow' set `true' on input line 1744.
+Package hyperref Info: Hyper figures OFF on input line 1792.
+Package hyperref Info: Link nesting OFF on input line 1797.
+Package hyperref Info: Hyper index ON on input line 1800.
+Package hyperref Info: Plain pages ON on input line 1805.
+Package hyperref Info: Backreferencing OFF on input line 1812.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 1916.
+(/usr/share/texmf/tex/latex/html/url.sty
+Package: url 1999/03/02  ver 1.4  Verb mode for urls, email addresses, and file
+ names
+)
+LaTeX Info: Redefining \url on input line 2055.
+\Fld@menulength=\count100
+\Field@Width=\dimen128
+\Fld@charsize=\dimen129
+\Choice@toks=\toks25
+\Field@toks=\toks26
+Package hyperref Info: Hyper figures OFF on input line 2513.
+Package hyperref Info: Link nesting OFF on input line 2518.
+Package hyperref Info: Hyper index ON on input line 2521.
+Package hyperref Info: backreferencing OFF on input line 2528.
+Package hyperref Info: Link coloring OFF on input line 2533.
+\c@Item=\count101
+\c@Hfootnote=\count102
+)
+*hyperref using driver hdvips*
+(/usr/share/texmf/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2003/01/22 v6.73n Hyperref driver for dvips
+
+(/usr/share/texmf/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2003/01/22 v6.73n Hyperref definitions for pdfmark specials
+\pdf@docset=\toks27
+\pdf@box=\box33
+\pdf@toks=\toks28
+\pdf@defaulttoks=\toks29
+\Fld@listcount=\count103
+\@outlinefile=\write3
+))
+(/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\slideWidth=\skip44
+\c@trueSlideCounter=\count104
+ (./PPRmm.sty
+Package: PPRmm 2000/04/18
+
+`Media and Machines' style for prosper ---
+(c) 2005 Roman Stanchak
+ 
+(/usr/share/texmf/tex/latex/pstricks/pst-grad.sty
+Package: pst-grad 1997/03/25 package wrapper for PSTricks pst-grad.tex
+
+(/usr/share/texmf/tex/generic/pstricks/pst-grad.tex  v97 patch 1, 1997/04/28))
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks30
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(/usr/share/texmf/tex/latex/seminar/semhelv.sty
+Style Option: `semhelv' for the `seminar' doc style 1.4 <2000/05/08> (tvz)
+Modified by Stefan (see source for details)
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 8.20007pt on input line 176.
+))
+\c@item@step=\count105
+\c@overlay@page=\count106
+\theoverlays=\box34
+\c@overlaysCount=\count107
+\c@limitOverlays=\count108
+) (/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks31
+\ex@=\dimen130
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen131
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count109
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count110
+\leftroot@=\count111
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count112
+\DOTSCASE@=\count113
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box35
+\strutbox@=\box36
+\big@size=\dimen132
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count114
+\c@MaxMatrixCols=\count115
+\dotsspace@=\muskip10
+\c@parentequation=\count116
+\dspbrk@lvl=\count117
+\tag@help=\toks32
+\row@=\count118
+\column@=\count119
+\maxfields@=\count120
+\andhelp@=\toks33
+\eqnshift@=\dimen133
+\alignsep@=\dimen134
+\tagshift@=\dimen135
+\tagwidth@=\dimen136
+\totwidth@=\dimen137
+\lineht@=\dimen138
+\@envbody=\toks34
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/share/texmf/tex/latex/misc/algorithmic.sty
+Package: algorithmic 2006/06/02
+
+Document Style `algorithmic' - environment
+(/usr/share/texmf/tex/latex/tools/calc.sty
+Package: calc 1998/07/07 v4.1b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count121
+\calc@Bcount=\count122
+\calc@Adimen=\dimen139
+\calc@Bdimen=\dimen140
+\calc@Askip=\skip48
+\calc@Bskip=\skip49
+LaTeX Info: Redefining \setlength on input line 59.
+LaTeX Info: Redefining \addtolength on input line 60.
+\calc@denominator=\count123
+)
+\c@ALC@line=\count124
+\c@ALC@rem=\count125
+\c@ALC@depth=\count126
+\ALC@tlm=\skip50
+\algorithmicindent=\skip51
+) (./topic-presentation.aux)
+\openout1 = `topic-presentation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+Package hyperref Info: Link coloring OFF on input line 15.
+
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2001/01/27 v2.19 Cross-referencing by name of section
+\c@section@level=\count127
+)
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+ (./topic-presentation.out)
+(./topic-presentation.out)
+\openout3 = `topic-presentation.out'.
+
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 14.16972pt on input line 23.
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 11.80809pt on input line 23.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 23.
+ (/usr/share/texmf/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <16> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 23.
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 5.74005pt on input line 23.
+LaTeX Font Info:    Font shape `OT1/courier/m/n' will be
+(Font)              scaled to size 6.895pt on input line 23.
+LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 23.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+File: umdglobe.eps Graphic file (type eps)
+ <umdglobe.eps>
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 4.10004pt on input line 23.
+ [1
+
+
+]
+File: umdglobe.eps Graphic file (type eps)
+
+<umdglobe.eps> [2
+
+] (./topic-presentation.aux) ) 
+Here is how much of TeX's memory you used:
+ 4824 strings out of 95847
+ 60696 string characters out of 1195947
+ 133116 words of memory out of 1000001
+ 7697 multiletter control sequences out of 10000+50000
+ 21700 words of font info for 38 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 37i,6n,28p,252b,743s stack positions out of 1500i,500n,5000p,200000b,5000s
+
+Output written on topic-presentation.dvi (2 pages, 6096 bytes).

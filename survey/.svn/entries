@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="29"
+   name=""
+   committed-date="2008-04-23T02:03:57.874866Z"
+   url="file:///fs/junkfood/roman/svn/spring2008/828G/survey"
+   last-author="roman"
+   kind="dir"
+   uuid="ab73d5b2-fe2d-0410-a6ce-95ba4c6044e8"
+   revision="30"/>
+<entry
+   committed-rev="29"
+   name="cmsc828g_survey.tex"
+   text-time="2008-04-21T16:42:03.000000Z"
+   committed-date="2008-04-23T02:03:57.874866Z"
+   checksum="68dbe5479922a8ed766cd38c949eed64"
+   last-author="roman"
+   kind="file"
+   prop-time="2008-05-12T16:31:02.000000Z"/>
+</wc-entries>

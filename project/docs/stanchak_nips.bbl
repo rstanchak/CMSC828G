@@ -1,0 +1,54 @@
+\begin{thebibliography}{1}
+
+\bibitem{blei02latent}
+D.~Blei, A.~Ng, and M.~Jordan.
+\newblock Latent dirichlet allocation, 2003.
+
+\bibitem{griffiths2005}
+TL~Griffiths, M~Steyvers, DM~Blei, and JB~Tenenbaum.
+\newblock Integrating topics and syntax.
+\newblock In {\em Advances in Neural Information Processing Systems 17}, 2005.
+
+\bibitem{hofmann99probabilistic}
+Thomas Hofmann.
+\newblock Probabilistic latent semantic analysis.
+\newblock In {\em Proc. of Uncertainty in Artificial Intelligence, UAI'99},
+  Stockholm, 1999.
+
+\bibitem{lazebnik2006}
+Svetlana Lazebnik, Cordelia Schmid, and Jean Ponce.
+\newblock Beyond bags of features: Spatial pyramid matching for recognizing
+  natural scene categories.
+\newblock {\em cvpr}, 02:2169--2178, 2006.
+
+\bibitem{russell2006}
+Bryan~C. Russell, William~T. Freeman, Alexei~A. Efros, Josef Sivic, and Andrew
+  Zisserman.
+\newblock Using multiple segmentations to discover objects and their extent in
+  image collections.
+\newblock {\em cvpr}, 02:1605--1614, 2006.
+
+\bibitem{sudderth2005}
+Erik~B. Sudderth, Antonio Torralba, William~T. Freeman, and Alan~S. Willsky.
+\newblock Learning hierarchical models of scenes, objects, and parts.
+\newblock {\em iccv}, 2:1331--1338, 2005.
+
+\bibitem{wallach2006}
+Hanna~M. Wallach.
+\newblock Topic modeling: beyond bag-of-words.
+\newblock In {\em ICML '06: Proceedings of the 23rd international conference on
+  Machine learning}, pages 977--984, New York, NY, USA, 2006. ACM.
+
+\bibitem{xwang2007}
+Xiaogang Wang and Eric Grimson.
+\newblock Spatial latent dirichlet allocation.
+\newblock In {\em Proceedings of Neural Information Processing Systems
+  Conference}, 2007.
+
+\bibitem{xwang2005}
+Xuerui Wang and Andrew McCallum.
+\newblock A note on topical n-grams.
+\newblock Technical Report UM-CS-2005-071, University of Massachusetts Amherst,
+  Amherst, MA, 2005.
+
+\end{thebibliography}

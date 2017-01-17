@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="13"
+   name=""
+   committed-date="2008-03-14T22:28:06.445007Z"
+   url="file:///fs/junkfood/roman/svn/spring2008/828G/project"
+   last-author="roman"
+   kind="dir"
+   uuid="ab73d5b2-fe2d-0410-a6ce-95ba4c6044e8"
+   revision="23"/>
+<entry
+   name="docs"
+   kind="dir"/>
+<entry
+   name="code"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,129 @@
+%%=============================================================================
+%% PPRmm.sty (a slide style for Prosper)
+%% Copyright 2000-2001 Frédéric Goualard
+%%
+%% This program may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.2
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.2 or later is part of all distributions of LaTeX 
+%% version 1999/12/01 or later.
+%%
+%% This program consists of the files listed in manifest.txt
+%
+% CVSId : $Id: PPRmm.sty,v 1.3 2001/10/24 15:11:25 exupery Exp $
+%==============================================================================
+\NeedsTeXFormat{LaTeX2e}[1995/12/01]
+\ProvidesPackage{PPRmm}[2000/04/18]
+\typeout{`Media and Machines' style for prosper ---}
+\typeout{(c) 2005 Roman Stanchak}
+\typeout{ }
+
+\IfFileExists{pst-grad}{\RequirePackage{pst-grad}}{\RequirePackage{gradient}}
+\RequirePackage{amssymb}
+
+\ifinColor
+	\newrgbcolor{darkblue}{0 .16 .21}
+	\newrgbcolor{myblue}{0 .3 .4}
+	\newrgbcolor{darkgreen}{0 .4 0}
+	\newrgbcolor{lightgreen}{.87 .92 .87}
+	\newrgbcolor{olivegreen}{.5 .5  0}
+	\newrgbcolor{grey}{.75 .75 .75}
+	\newrgbcolor{darkred}{.4 0 0}
+	\newrgbcolor{warmyellow}{1.0 .8 .2}
+\else
+	\newrgbcolor{darkblue}{0 .16 .21}
+	\newrgbcolor{myblue}{0 .3 .4}
+	\newrgbcolor{darkgreen}{0 .4 0}
+	\newrgbcolor{lightgreen}{.87 .92 .87}
+	\newrgbcolor{grey}{.75 .75 .75}
+	\newrgbcolor{darkred}{.4 0 0}
+\fi
+\ifinColor
+\ifcolorBG
+\let\colC=\black
+\else
+\let\colC=\black
+\fi
+\else
+\let\colC=\black
+\fi
+
+%\renewcommand{\labelitemi}{{%
+%      \black\ensuremath{\scriptscriptstyle\blacksquare}}}
+\myitem{1}{\includegraphics[width=1.5mm]{green-arrow}}
+\myitem{2}{\includegraphics[width=1.25mm]{green-arrow}}
+\myitem{3}{\includegraphics[width=1.0mm]{green-arrow}}
+%\myitem{1}{\psline[linecolor=darkgreen,linewidth=.5pt](-.11,.3)(.1,.15)(-.1,0)}
+
+\FontTitle{%
+  \usefont{T1}{phv}{m}{n}\fontsize{20.74pt}{20pt}\selectfont%
+  \white}{%
+  \usefont{T1}{phv}{m}{n}\fontsize{20.74pt}{20pt}\selectfont%
+  \darkred
+ }
+\FontText{\colC\usefont{T1}{phv}{m}{n}\fontsize{12.4pt}{12pt}%
+  \selectfont}{%
+  \colC\usefont{T1}{phv}{m}{n}\fontsize{12.4pt}{12pt}\selectfont}
+
+\ColorFoot{\colC}
+
+\newcommand{\slidetitle}[1]{%
+  \rput[lt](-.8,4.25){\fontTitle{#1}}}
+
+
+\LogoPosition{7.75,-1.125}
+\Logo{\includegraphics[height=.2in]{umdglobe}}
+
+\newcommand{\ContempFrame}[1]{%
+  %\ifcolorBG
+  %\psframe[linestyle=none,fillstyle=solid,fillcolor=myblue](-2,-1.4)(12.5,9)
+  %\fi
+  %\psframe[linestyle=none,fillstyle=solid,%
+  %fillcolor=darkblue](-.4,6.7)(12.5,7.8)
+  
+  % background gradient
+  \psframe[gradbegin=lightgray,gradend=darkgray,gradmidpoint=1,
+           gradangle=0,fillstyle=gradient,gradlines=1000,
+		            linestyle=none](-2.0,-.45)(12, 9)
+
+  % content frame
+  \psframe[linestyle=none,fillstyle=solid,
+  fillcolor=white](-1,0)(11,8.5)
+  
+  % content header
+  \psframe[gradbegin=gray,gradend=black,gradmidpoint=1,
+	           gradangle=0,fillstyle=gradient,gradlines=100,
+			   linestyle=none]
+  			  (-0.9,7.0)(10.9,8.4)
+  
+  % bottom grey line
+  \psframe[linestyle=none,fillstyle=solid,%
+  fillcolor=warmyellow](-0.9,6.98)(10.9,6.99)
+  
+  %\psframe[linestyle=none,fillstyle=solid,%
+  %fillcolor=grey](-3,-1.4)(0,9)
+  %\multirput(5,-.8)(.8,0){10}{\qdisk(0,0){1.2pt}}
+  %\multirput(-.3,8)(0,.3){3}{\qdisk(0,0){1.2pt}}
+  \PutLogo % Mandatory
+
+  % mmlogo 
+  \rput[lt](-1.8,-0.6){
+  	%\includegraphics[height=.2in]{logo}
+  }
+  {#1}
+}
+
+\NewSlideStyle[3.75in]{t}{5.5,3.0}{ContempFrame}
+
+\RequirePackage{semhelv}
+
+%\PDFCroppingBox{0 0 1100 800}
+
+\endinput
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
